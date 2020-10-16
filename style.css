@@ -8,6 +8,7 @@ body {
     background-color: brown; burlywood;
     align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .calc {
@@ -52,4 +53,11 @@ button {
 }
 button:hover {
     cursor: pointer;
+}
+.copy {
+    padding-top: 10px;
+    color: whitesmoke ;
+}
+.copy b {
+    color: yellow;
 }
